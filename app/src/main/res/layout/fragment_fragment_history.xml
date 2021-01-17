@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.FragmentHistory">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progressHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/klikExpand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Klik Expanda" />
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandHistory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:ael_duration="200"
+            app:ael_expanded="true"
+            app:ael_orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvHistory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutAnimation="@anim/layout_animation"
+                android:layout_margin="5dp">
+
+            </android.support.v7.widget.RecyclerView>
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+
+    </RelativeLayout>
+</FrameLayout>

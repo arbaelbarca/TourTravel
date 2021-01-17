@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DetailHistory.DetailHistoryActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/text_color_white">
+
+        <include layout="@layout/layout_toolbar" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appBar"
+        android:orientation="vertical">
+
+        <com.shuhart.stepview.StepView
+            android:id="@+id/stepViewDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            app:sv_animationType="Line"
+            app:sv_background="#B90000"
+            app:sv_doneCircleColor="@color/text_color_white"
+            app:sv_doneCircleRadius="12dp"
+            app:sv_doneStepLineColor="@color/black_pekat"
+            app:sv_doneStepMarkColor="@color/text_color_white"
+            app:sv_nextStepCircleEnabled="true"
+            app:sv_nextStepLineColor="@color/text_color_white"
+            app:sv_nextTextColor="@color/text_color_white"
+            app:sv_selectedCircleColor="@color/text_color_white"
+            app:sv_selectedCircleRadius="14dp"
+            app:sv_selectedStepNumberColor="@color/black_pekat"
+            app:sv_stepLineWidth="2dp"
+            app:sv_stepNumberTextSize="14dp"
+            app:sv_stepPadding="2dp"
+            app:sv_textSize="13sp"
+            app:sv_stepViewStyle="@style/StepView"
+            app:sv_stepsNumber="4" />
+
+        <RelativeLayout
+            android:id="@+id/rlTabLayou"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                app:tabGravity="center"
+                app:tabIndicatorColor="@color/red_actionbar_normal"
+                app:tabIndicatorFullWidth="true"
+                app:tabIndicatorHeight="3dp"
+                app:tabMode="scrollable"
+                app:tabSelectedTextColor="@color/red_actionbar_normal"
+                app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
+                app:tabTextColor="@color/text_color_grey">
+
+            </android.support.design.widget.TabLayout>
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/dropshadow" />
+
+        <com.arbaelbarca.tourtravel.Utils.CustomViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tabLayout">
+
+        </com.arbaelbarca.tourtravel.Utils.CustomViewPager>
+    </LinearLayout>
+
+
+</RelativeLayout>

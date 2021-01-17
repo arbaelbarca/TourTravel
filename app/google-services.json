@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "555170257554",
+    "firebase_url": "https://tour-travel-fccf0.firebaseio.com",
+    "project_id": "tour-travel-fccf0",
+    "storage_bucket": "tour-travel-fccf0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555170257554:android:fb5c5af4571a74b3",
+        "android_client_info": {
+          "package_name": "com.arbaelbarca.tourtravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555170257554-eaj5flc5f8tss00osu84g5ct16cf159l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arbaelbarca.tourtravel",
+            "certificate_hash": "fbf5c6a3693fe61bed1e0378f4a48d8ba3e58e47"
+          }
+        },
+        {
+          "client_id": "555170257554-226j3dlp5g5rqfiin85hv7vg8srsgdhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkd4lGPnOh_AyjBjEe9QXxnFOrlpgXaYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555170257554-226j3dlp5g5rqfiin85hv7vg8srsgdhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

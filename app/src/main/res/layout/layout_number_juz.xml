@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rlBgJuzNumber"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_margin="7dp"
+        android:background="@drawable/bg_juz_grey">
+
+        <TextView
+            android:id="@+id/numberJuz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="3dp"
+            android:text="50"
+            android:textColor="@color/text_color_white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>

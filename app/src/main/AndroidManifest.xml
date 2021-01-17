@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.arbaelbarca.tourtravel">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:usesCleartextTraffic="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Activity.InsertDataVendor"></activity>
+        <activity android:name=".Activity.DetailQuranRead" />
+        <activity android:name=".Activity.DetailSurahJuz" />
+        <activity android:name=".Activity.CreateInvoice" />
+        <activity android:name=".Activity.DetailHistory.DetailHistoryActivity" />
+        <activity android:name=".Activity.OrderUmroh" />
+        <activity
+            android:name=".Activity.OpenCvCamera.OpenCameraView"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.DetailUmroh" />
+        <activity android:name=".Activity.DetailPengajuanVendor" />
+        <activity android:name=".Activity.ListPengajuanVendor" />
+        <activity android:name=".Activity.PengajuanVendor" />
+        <activity android:name=".Activity.Profile.EditProfile" />
+        <activity android:name=".Activity.Umroh" />
+        <activity android:name=".Register.RegisterActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Login.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBpih80dTMhfLqMwjBpeiaReGJ2qpfJu6E" />
+    </application>
+
+</manifest>

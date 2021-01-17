@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+        <color name="primary">#1565c0</color>
+        <color name="primaryDark">#003c8f</color>
+        <color name="accent">#4CAF50</color>
+        <color name="primaryText">#FFFF</color>
+        <color name="secondaryText">#727272</color>
+        <color name="tabcolor">#5DAEF1</color>
+        <color name="bg_top">#5ABC6E</color>
+        <color name="bg_activity">#FFFFFF</color>
+        <color name="bg_splasscreen">#12bf99</color>
+        <color name="bg_title">#595959</color>
+        <color name="butt_color">#ffffff</color>
+        <color name="bg_list_header">#848484</color>
+        <color name="bg_dashboard">#c8c8cb</color>
+        <color name="bg_tab_menu">#f2f2f2</color>
+        <color name="bg_browse_normal">#fc9856</color>
+        <color name="bg_browse_selected">#c4462a</color>
+        <color name="bg_orange_profil">#FFFF99</color>
+        <color name="text_color_black">#323232</color>
+        <color name="black_pekat">#000000</color>
+        <color name="text_color_white">#FFFFFF</color>
+        <color name="text_color_grey">#999999</color>
+        <color name="text_color_grey2">#b3b3b3</color>
+        <color name="text_color_dark">#555555</color>
+        <color name="text_color_filter">#b3b3b3</color>
+        <color name="text_color_orange">#fb6c05</color>
+        <color name="text_color_orange2">#FF831C</color>
+        <color name="text_color_orange3">#FC6C05</color>
+        <color name="text_color_red">#e84179</color>
+        <color name="text_color_tab">#b3b2b2</color>
+        <color name="text_color_green">#006766</color>
+        <color name="text_color_light_green">#8f9e27</color>
+        <color name="transparent">#00000000</color>
+        <color name="transparent_dark">#cc000000</color>
+        <color name="text_color_blue_alpha75">#7560caf1</color>
+        <color name="text_color_blue_alpha90">#9060caf1</color>
+        <color name="text_color_grey_alpha75">#75bebaba</color>
+        <color name="text_color_grey_alpha90">#90bebaba</color>
+        <color name="list_selector_selected">#0f62b0</color>
+        <color name="list_selector_pressed">#0f62b0</color>
+        <color name="list_divider">#bcbbbb</color>
+        <color name="red_actionbar_normal">#f02a21</color>
+        <color name="red_actionbar_pressed">#FA7373</color>
+        <color name="text_look_all">#212121</color>
+        <color name="text_color_store_beranda">#f5a623</color>
+
+        <!-- This Home -->
+        <color name="header_merah">#f02a21</color>
+        <color name="all_dropdown">#9fa2a4</color>
+        <color name="border_app">#edf0f1</color>
+        <color name="text_title_list_home">#bc1524</color>
+        <color name="text_deskripsi_content">#767171</color>
+        <color name="border_separator">#e4e4e4</color>
+        <color name="nav_header">#5ABC6E</color>
+        <color name="bg_questioner">#f2f2f2</color>
+        <color name="text_questioner_title">#616161</color>
+        <color name="text_questioner_answer">#767171</color>
+
+        <!-- This Article -->
+        <color name="text_article_category_title">#4e4e4d</color>
+        <color name="text_article_headtitle">#bc1524</color>
+
+        <!-- This View Detail -->
+        <color name="text_detail_category_title">#4e4e4d</color>
+        <color name="text_detail_headtitle">#bc1524</color>
+        <color name="text_detail_content_deskripsi">#767171</color>
+        <color name="bg_detail_response">#f1f5f7</color>
+        <color name="text_detail_response_name">#000000</color>
+        <color name="text_detail_time">#b6b6b6</color>
+        <color name="text_detail_title_response">#616161</color>
+
+        <!-- This Profile -->
+        <color name="bg_profile_setting">#4cd9c8</color>
+        <color name="bg_profile_popup_headline">#f02a21</color>
+        <color name="bg_profile_header">#005b7f</color>
+        <color name="text_profile">#97a538</color>
+        <color name="text_profile_name">#12bf99</color>
+        <color name="text_profile_popup">#9fa2a4</color>
+        <color name="text_profile_location">#f2805b</color>
+        <color name="bg_profile_changeprofile">#4cd9c8</color>
+        <color name="bg_login">#f6f7f1</color>
+
+        <!-- This Activity Log -->
+        <color name="text_log_content">#8d7d63</color>
+
+        <!-- Try Primary Concept -->
+        <color name="text_headtitle">#333333</color>
+        <color name="text_headtitle_register">#fff100</color>
+        <color name="text_subheadtitle">#4e4e4d</color>
+        <color name="text_content">#989fa9</color>
+        <color name="text_time">#bdbdbd</color>
+        <color name="border">#dde0e1</color>
+
+        <!-- This for header action bar -->
+        <color name="bg_header_actionbar">#ffffff</color>
+        <color name="bg_header_actionbar_detail">#12bf99</color>
+        <color name="bg_header_tab_actionbar">#007fa4</color>
+        <color name="bg_tab_selected_actionbar">#e2f2e5</color>
+        <color name="bg_tab_selected_cartstore">#728631</color>
+        <color name="bg_login_peka">#4cd9c8</color>
+
+        <!-- This for navigation drawer -->
+        <color name="bg_drawer">#f2f4e9</color>
+        <color name="bg_drawer_header">#005b7f</color>
+        <color name="bg_drawer_list_activated">#dedfd4</color>
+        <color name="text_drawer_menu">#97a538</color>
+        <color name="text_drawer_menu_new">#756f7b</color>
+        <color name="text_drawer_profile">#fff8b0</color>
+
+        <!-- This for activity detail -->
+        <color name="bg_compose_response">#12bf99</color>
+        <color name="bg_post_dialog">#ffeeeeee</color>
+        <color name="bg_komentar">#fdfae9</color>
+        <color name="bg_border">#e2ddc7</color>
+        <color name="bg_attachment">#2ebced</color>
+        <color name="bg_tips">#4cd9c8</color>
+
+        <!-- This color for button -->
+        <color name="btn_daftar_bg_normal">#3f77b4</color>
+        <color name="btn_daftar_bg_pressed">#d8f4f9</color>
+        <color name="btn_daftar_border">#4fc0e8</color>
+
+        <!-- This color for weather -->
+        <color name="weather_background">#f8f8f8</color>
+        <color name="weather_text">#838282</color>
+        <color name="weather_spinner">#857618</color>
+        <color name="text_on_fragment_information">#574b3d</color>
+
+        <!-- This color for style -->
+
+        <color name="textColorPrimary">#FFFFFF</color>
+
+        <!-- This color for product detail -->
+        <color name="bg_comment">#e1e8ea</color>
+        <color name="bgshowcase">#dd006766</color>
+
+        <color name="line_gray">#AAAAAA</color>
+        <color name="transparent_gray">#80000000</color>
+        <color name="transparent_black">#cc000000</color>
+        <color name="transparent_black_normal">#cc323232</color>
+
+        <color name="text_toolbar">#323232</color>
+
+        <!-- This color for default app -->
+        <color name="btn_login">#f6bb43</color>
+        <color name="btn_register">#FFFFFF</color>
+        <color name="btn_next">#f6bb43</color>
+
+        <color name="text_hint_login">#000</color>
+        <color name="text_btn_login">#FFFFFF</color>
+        <color name="text_btn_register">#323232</color>
+        <color name="text_btn_next">#FFFFFF</color>
+
+        <color name="text_question_user_name">#323232</color>
+        <color name="text_like">#bdbdbd</color>
+        <color name="text_register">#FFFFFF</color>
+        <color name="text_price_rp">#f6bb43</color>
+        <color name="text_price">#f6bb43</color>
+        <color name="text_author_comment">#323232</color>
+
+        <color name="text_notification_action">#bdbdbd</color>
+        <color name="text_navigation">#757575</color>
+
+        <color name="notification_read">#bdbdbd</color>
+        <color name="notification_unread">#ed5464</color>
+
+        <color name="ic_location">#bdbdbd</color>
+        <color name="bg_icon">#bdbdbd</color>
+
+        <color name="register_bar">#f6bb43</color>
+        <color name="icon_color">#756f7b</color>
+        <color name="back_sms">#5ABC6E</color>
+        <color name="toolbar_detail">@color/text_color_white</color>
+        <color name="text_toolbar_detail">@color/transparent_black</color>
+        <color name="send_button_color">#F5BB43</color>
+
+        <color name="bg_store_call">#13bf99</color>
+        <color name="bg_price_odd">#e0f2f3</color>
+        <color name="btn_color_send">#42A5F5</color>
+
+        <color name="star_satu">#FFCA28</color>
+        <color name="star_dua">#ef5350</color>
+        <color name="star_tiga">#03A9F4</color>
+        <color name="star_empat">#1a5d2f</color>
+
+        <color name="bg_register">#5ABC6E</color>
+        <color name="text_color_author">#323232</color>
+        <color name="text_color_label">#323232</color>
+        <color name="text_color_showpassword">#323232</color>
+
+        <color name="color_grey_recommendation">#F5F5F5</color>
+
+        <color name="color_title_image_slider">#FFFFFF</color>
+        <color name="color_desc_image_slider">#EEEEEE</color>
+        <color name="bg_dialog_credit">#5ABC6E</color>
+        <color name="tutorial_buttonTextColor">#ffffff</color>
+        <color name="tutorial_subtitleTextColor">#ffffff</color>
+        <color name="tutorial_titleTextColor">#ffffff</color>
+
+        <color name="slide_1">#4f91ff</color>
+        <color name="slide_2">#fb9c25</color>
+        <color name="slide_3">#5ab55d</color>
+        <color name="slide_4">#ea2d6d</color>
+
+        <color name="card_shadow_1">#d4d4d4</color>
+        <color name="card_shadow_2">#dddddd</color>
+        <color name="card_background">#ffffff</color>
+        <color name="color_icon">#1a5d2f</color>
+        <color name="color_bullet_profile">#777007</color>
+        <color name="color_icon_call">#000000</color>
+        <color name="color_icon_menu_drawer">#4b9c4f</color>
+        <color name="nav_user">#1a5d2f</color>
+        <color name="color_transfer_point">#FFFFFF</color>
+        <color name="color_btn_chek_topup">#3163b7</color>
+        <color name="btn_register1">@color/nav_header</color>
+        <color name="cream_shape">#a8a8a8</color>
+
+        <color name="color_price_background">#5ABC6E</color>
+        <color name="color_text_forgot1">#000000</color>
+
+        <color name="title_color_toolbar_chat">#000000</color>
+        <color name="color_bg_price_fragment">#f0f0f0</color>
+        <color name="color_tag_location">#838282</color>
+        <color name="text_survey">#000000</color>
+        <color name="text_menu_drawer">#4b9c4f</color>
+        <color name="bg_color_profile">#2e7d32</color>
+        <color name="color_text_selectedtabRank">#aaa</color>
+        <color name="color_text_tabRank">#FFFFFF</color>
+        <color name="bg_selected_drawer">#c3e3c4</color>
+        <color name="color_blue_custom">#32A6E0</color>
+
+
+</resources>

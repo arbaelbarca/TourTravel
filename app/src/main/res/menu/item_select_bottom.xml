@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ic_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"
+
+        />
+    <item
+        android:id="@+id/ic_Toko"
+        android:icon="@drawable/bg_quran_botom"
+        android:title="Alquran" />
+
+    <item
+        android:id="@+id/ic_Jadwal"
+        android:icon="@drawable/ic_schedule_black_24dp"
+        android:title="Jadwal"
+
+        />
+
+
+    <item
+        android:id="@+id/ic_history"
+        android:icon="@drawable/report"
+        android:title="History" />
+
+    <item
+        android:id="@+id/ic_Akun"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="Akun"
+
+        />
+</menu>

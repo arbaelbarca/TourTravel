@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register.RegisterActivity">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlToolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true">
+
+                    <EditText
+                        android:id="@+id/txtNama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Nama"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="10dp"
+                        android:textColorHint="@color/text_color_grey"
+                        android:textSize="16sp" />
+
+                </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true">
+
+                    <EditText
+                        android:id="@+id/txtNotlp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Nomor Telpn"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="10dp"
+                        android:textColorHint="@color/text_color_grey"
+                        android:textSize="16sp" />
+
+                </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true">
+
+                    <EditText
+                        android:id="@+id/txtEmailReg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="10dp"
+                        android:textColorHint="@color/text_color_grey"
+                        android:textSize="16sp" />
+
+                </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/cbShowPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/ti_password"
+                    android:layout_alignBottom="@+id/ti_password"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/text_color_white"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/checkbox_showpassword" />
+
+                <android.support.design.widget.TextInputLayout
+
+                    android:id="@+id/ti_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/cbShowPassword"
+                    android:layout_toRightOf="@+id/cbShowPassword"
+                    app:passwordToggleEnabled="true"
+                    app:srcCompat="@drawable/checkbox_showpassword">
+
+                    <EditText
+                        android:id="@+id/txtPasswordReg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:paddingLeft="10dp"
+                        android:textColorHint="@color/text_color_grey"
+                        android:textSize="16sp" />
+
+                </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_custom"
+                android:backgroundTint="#32A6E0"
+                android:text="Register"
+                android:textSize="14sp"
+                android:textColor="@color/text_color_white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sudah punya akun ?"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtDaftar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="Masuk"
+                    android:textColor="#32A6E0"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DetailQuranRead">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/text_color_white">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp">
+
+                <Spinner
+                    android:id="@+id/spinnerSurat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone">
+
+                </Spinner>
+
+                <ImageView
+                    android:id="@+id/favSurah"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="7dp"
+                    app:srcCompat="@drawable/ic_favorite_border_black_24dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtIndoJudul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Surat al"
+                        android:textColor="@color/black_pekat"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:id="@+id/txtAyatJudul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Surat al"
+                        android:textColor="@color/text_color_grey"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.Toolbar>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/dropshadow" />
+    </android.support.design.widget.AppBarLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBarRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:visibility="gone">
+
+    </ProgressBar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appBar"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/llPilihSurah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bg_item_akun2"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txtSelectSurah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Pilih Surah" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="10dp"
+                android:layout_weight="4"
+                android:padding="5dp"
+                app:srcCompat="@drawable/ic_keyboard_arrow_down_black_24dp" />
+
+
+        </LinearLayout>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_love"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            app:lottie_fileName="lova_popup.json" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvDetailRead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            tools:listitem="@layout/layout_read_quran">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    <com.example.jean.jcplayer.view.JcPlayerView
+        android:id="@+id/playAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/text_color_white"
+        app:next_icon="@drawable/ic_next"
+        app:next_icon_color="@color/black_pekat"
+        app:pause_icon="@drawable/ic_pause"
+        app:pause_icon_color="@color/text_color_green"
+        app:play_icon="@drawable/ic_play"
+        app:play_icon_color="@color/red_actionbar_normal"
+        app:previous_icon="@drawable/ic_previous_black"
+        app:previous_icon_color="@color/black_pekat"
+        app:progress_color="@color/red_actionbar_normal"
+        app:seek_bar_color="@color/colorAccent"
+        app:show_random_button="true"
+        app:show_repeat_button="true"
+        app:text_audio_current_duration_color="@color/line_gray"
+        app:text_audio_duration_color="@color/line_gray"
+        app:text_audio_title_color="@color/red_actionbar_normal" />
+
+
+</RelativeLayout>

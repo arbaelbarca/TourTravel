@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.DetailHistoryFragment.FragmentPelunasan">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif"
+                android:text="Status Pesananan"
+                android:textColor="#0f2236"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:id="@+id/txtStatusHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+
+                android:text="Diterima"
+                android:textColor="@color/red_actionbar_normal"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/dropshadow" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Invoice"
+                    android:textColor="#0f2236"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+
+                <TextView
+                    android:id="@+id/txtLihatInvoice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    android:text="Lihat"
+                    android:textColor="@color/text_color_green"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txtInvoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+
+                android:text="ssda/2330/23299123"
+                android:textColor="@color/text_color_green"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/dropshadow" />
+
+            <TextView
+                android:id="@+id/txtTitleDetailAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Nama Pemesan : Arba"
+                android:textColor="@color/black_pekat"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_cardview"
+                android:elevation="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="sans-serif"
+                            android:text="Detail Vendor"
+                            android:textColor="#0f2236"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+
+
+                        <TextView
+                            android:id="@+id/txtStatusHistory2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_margin="3dp"
+                            android:text="statusssssss"
+                            android:textColor="@color/red_actionbar_normal"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="gone" />
+
+
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/bg_nomor_pilot"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="155dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|top"
+                                android:layout_marginRight="5dp"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/image1" />
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txtNamaVendor"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="6dp"
+                                android:fontFamily="sans-serif"
+                                android:textColor="#001121"
+                                android:textSize="12sp"
+                                android:textStyle="normal"
+                                tools:text="Yuniantoro" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txtPhoneVendor"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:textColor="#001121"
+                                    android:textSize="12sp"
+                                    android:textStyle="normal"
+                                    tools:text="+6282288112822" />
+
+                                <TextView
+                                    android:id="@+id/txtEmail"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:fontFamily="sans-serif-light"
+                                    android:textColor="#001121"
+                                    android:textSize="12sp"
+                                    android:textStyle="normal"
+                                    tools:text="+Arba Elbarca@gmail.ocm" />
+
+                                <TextView
+                                    android:id="@+id/txtAlamatVendor"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:fontFamily="sans-serif-light"
+                                    android:textColor="#001121"
+                                    android:textSize="12sp"
+                                    android:textStyle="normal"
+                                    tools:text="+6282288112822" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginBottom="6dp"
+                        android:background="@drawable/dropshadow" />
+
+                    <RelativeLayout
+                        android:id="@+id/rlExpandPaket"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="sans-serif"
+                            android:text="Detail Paket"
+                            android:textColor="#0f2236"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+
+                        <ImageView
+                            android:id="@+id/imgArrowPaket"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            app:srcCompat="@drawable/ic_keyboard_arrow_down_black_24dp">
+
+                        </ImageView>
+                    </RelativeLayout>
+
+                    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                        android:id="@+id/expandablePaket"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:ael_duration="300"
+                        app:ael_expanded="true"
+                        app:ael_interpolator="accelerate"
+                        app:ael_orientation="vertical">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginBottom="5dp"
+                            android:elevation="7dp"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="7dp">
+
+                            <LinearLayout
+                                android:id="@+id/llClickDetail"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RelativeLayout
+                                    android:id="@+id/imgVendor"
+                                    android:layout_width="123dp"
+                                    android:layout_height="123dp"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_centerInParent="true"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        app:srcCompat="@drawable/image_paket" />
+
+                                </RelativeLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="7dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/txtNamaPaket"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="6dp"
+                                        android:fontFamily="sans-serif"
+                                        android:text="Pulsa"
+                                        android:textColor="#001122"
+                                        android:textSize="12sp"
+                                        android:textStyle="normal" />
+
+                                    <TextView
+                                        android:id="@+id/txtPricePaket"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5dp"
+                                        android:fontFamily="sans-serif-light"
+                                        android:text="Rp. 1500.000"
+                                        android:textColor="#757575"
+                                        android:textSize="12sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/txtDeskripsiPaket"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="sans-serif-light"
+                                        android:text="PEsawat Mantabs Keren"
+                                        android:textColor="#757575"
+                                        android:textSize="12sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginBottom="6dp"
+                        android:background="@drawable/dropshadow" />
+
+
+                    <RelativeLayout
+                        android:id="@+id/rlExpandAnggota"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="sans-serif"
+                            android:text="Detail Anggota"
+                            android:textColor="#0f2236"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+
+                        <ImageView
+                            android:id="@+id/imgArrowAnggota"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            app:srcCompat="@drawable/ic_keyboard_arrow_down_black_24dp">
+
+                        </ImageView>
+                    </RelativeLayout>
+
+                    <com.github.aakira.expandablelayout.ExpandableLinearLayout
+                        android:id="@+id/expandAnggota"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:ael_duration="300"
+                        app:ael_expanded="true"
+                        app:ael_interpolator="accelerate"
+                        app:ael_orientation="vertical">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/rvList"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="7dp"
+                            android:visibility="gone" />
+
+                    </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginBottom="6dp"
+                        android:background="@drawable/dropshadow" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif"
+                android:text="Informasi Pelunasan"
+                android:textColor="#0f2236"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/dropshadow" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/llBiaya1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp">
+
+
+                        <TextView
+                            android:id="@+id/judulBiaya1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="sans-serif"
+                            android:text="Pph"
+                            android:textColor="#0f2236"
+                            android:textSize="12sp"
+                            android:textStyle="normal" />
+
+
+                        <TextView
+                            android:id="@+id/txtBiaya1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginRight="10dp"
+                            android:text="50.0000"
+                            android:textColor="@color/black_pekat"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginBottom="6dp"
+                        android:background="@drawable/dropshadow" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/llBiaya2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp">
+
+
+                        <TextView
+                            android:id="@+id/judulBiaya2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="sans-serif"
+                            android:text="Pph"
+                            android:textColor="#0f2236"
+                            android:textSize="12sp"
+                            android:textStyle="normal" />
+
+
+                        <TextView
+                            android:id="@+id/txtBiaya2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginRight="10dp"
+                            android:text="50.0000"
+                            android:textColor="@color/black_pekat"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginBottom="6dp"
+                        android:background="@drawable/dropshadow" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llBiaya3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp">
+
+
+                        <TextView
+                            android:id="@+id/judulBiaya3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="sans-serif"
+                            android:text="Pph"
+                            android:textColor="#0f2236"
+                            android:textSize="12sp"
+                            android:textStyle="normal" />
+
+
+                        <TextView
+                            android:id="@+id/txtBiaya3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginRight="10dp"
+                            android:text="50.0000"
+                            android:textColor="@color/black_pekat"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginBottom="6dp"
+                        android:background="@drawable/dropshadow" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="sans-serif"
+                        android:text="Total Pelunasan"
+                        android:textColor="#0f2236"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/txtBiayaTotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="10dp"
+                        android:text="50.0000"
+                        android:textColor="@color/black_pekat"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/imgStrukHistory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:visibility="gone"
+                        app:srcCompat="@drawable/ic_add_struk" />
+
+                    <ImageView
+                        android:id="@+id/imgStruk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:visibility="gone"
+                        app:srcCompat="@drawable/ic_add_struk" />
+
+                    <TextView
+                        android:id="@+id/txtKetUploadStruk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Upload Struk Pelunasan pembayaran"
+                        android:textColor="@color/black_pekat"
+                        android:textSize="14sp"
+                        android:textStyle="normal"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <RelativeLayout
+                android:id="@+id/rlSimpanStruk"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/btn_custom"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/simpanHistory"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="Simpan"
+                    android:textColor="#ffffff"
+                    android:textSize="13sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

@@ -1,0 +1,2 @@
+include ':app', ':common:data', ':common:pages', ':pages:madani'
+include ':openCVLibrary343'

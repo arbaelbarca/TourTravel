@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tour&amp;Travel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="key_web_id">555170257554-226j3dlp5g5rqfiin85hv7vg8srsgdhb.apps.googleusercontent.com</string>
+    <string name="text_name_profile">Nama</string>
+
+    <array name="step_view_detail">
+        <item>Detail</item>
+        <item>Anggota</item>
+        <item>Pelunasan</item>
+    </array>
+</resources>

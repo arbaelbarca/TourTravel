@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.OpenCvCamera.OpenCameraView">
+
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/imgCameraCv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:show_fps="true">
+
+    </org.opencv.android.JavaCameraView>
+
+
+    <ImageView
+        android:id="@+id/take_picture"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/ic_capture_camera" />
+</RelativeLayout>

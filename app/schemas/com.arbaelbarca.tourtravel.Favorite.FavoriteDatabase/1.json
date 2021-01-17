@@ -1,0 +1,57 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "28a97a2f232483ee723e038b8de211ba",
+    "entities": [
+      {
+        "tableName": "favoriteSurah",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER NOT NULL, `surah` TEXT, `ayat` TEXT, `number_ayat` TEXT, `number_surah` TEXT, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "surah",
+            "columnName": "surah",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ayat",
+            "columnName": "ayat",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "number",
+            "columnName": "number_ayat",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "number_surah",
+            "columnName": "number_surah",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"28a97a2f232483ee723e038b8de211ba\")"
+    ]
+  }
+}
